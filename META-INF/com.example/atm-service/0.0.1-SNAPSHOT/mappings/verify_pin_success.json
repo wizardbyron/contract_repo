@@ -1,0 +1,16 @@
+{
+  "id" : "e804182e-f6f1-48fe-b0d6-e016d9ca076a",
+  "request" : {
+    "url" : "/verify_pin/1111222233334444/123456",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 202,
+    "body" : "{\"result\":\"OK\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=utf-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "e804182e-f6f1-48fe-b0d6-e016d9ca076a"
+}

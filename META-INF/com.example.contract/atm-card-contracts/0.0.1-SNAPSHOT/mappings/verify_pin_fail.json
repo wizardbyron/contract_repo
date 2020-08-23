@@ -1,0 +1,16 @@
+{
+  "id" : "c179b7a7-b959-45b4-a652-b5b14324ce5f",
+  "request" : {
+    "url" : "/verify_pin/1111222233334444/432124",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 400,
+    "body" : "{\"result\":\"Your PIN is invalid\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=utf-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "c179b7a7-b959-45b4-a652-b5b14324ce5f"
+}
